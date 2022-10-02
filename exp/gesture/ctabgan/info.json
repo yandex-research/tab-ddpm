@@ -1,0 +1,11 @@
+{
+    "name": "Gesture Phase",
+    "id": "gesture--default",
+    "task_type": "multiclass",
+    "n_num_features": 32,
+    "n_cat_features": 0,
+    "train_size": 6318,
+    "val_size": 1580,
+    "test_size": 1975,
+    "n_classes": 5
+}

@@ -1,0 +1,10 @@
+{
+    "task_type": "regression",
+    "name": "Insurance",
+    "id": "insurance--id",
+    "train_size": 856,
+    "val_size": 214,
+    "test_size": 268,
+    "n_num_features": 3,
+    "n_cat_features": 3
+}

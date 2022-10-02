@@ -1,0 +1,222 @@
+{
+    "real": {
+        "tree": {
+            "val": {
+                "acc-count": 10.0,
+                "acc-mean": 0.7962,
+                "acc-std": 0.0026,
+                "f1-count": 10.0,
+                "f1-mean": 0.6909,
+                "f1-std": 0.0035,
+                "roc_auc-count": 10.0,
+                "roc_auc-mean": 0.6941,
+                "roc_auc-std": 0.004
+            },
+            "test": {
+                "acc-count": 10.0,
+                "acc-mean": 0.7968,
+                "acc-std": 0.003,
+                "f1-count": 10.0,
+                "f1-mean": 0.6913,
+                "f1-std": 0.0034,
+                "roc_auc-count": 10.0,
+                "roc_auc-mean": 0.6943,
+                "roc_auc-std": 0.003
+            }
+        },
+        "lr": {
+            "val": {
+                "acc-count": 10.0,
+                "acc-mean": 0.815,
+                "acc-std": 0.0,
+                "f1-count": 10.0,
+                "f1-mean": 0.5911,
+                "f1-std": 0.0,
+                "roc_auc-count": 10.0,
+                "roc_auc-mean": 0.7449,
+                "roc_auc-std": 0.0
+            },
+            "test": {
+                "acc-count": 10.0,
+                "acc-mean": 0.8035,
+                "acc-std": 0.0,
+                "f1-count": 10.0,
+                "f1-mean": 0.5719,
+                "f1-std": 0.0,
+                "roc_auc-count": 10.0,
+                "roc_auc-mean": 0.7542,
+                "roc_auc-std": 0.0
+            }
+        },
+        "rf": {
+            "val": {
+                "acc-count": 10.0,
+                "acc-mean": 0.8637,
+                "acc-std": 0.0019,
+                "f1-count": 10.0,
+                "f1-mean": 0.7489,
+                "f1-std": 0.0037,
+                "roc_auc-count": 10.0,
+                "roc_auc-mean": 0.8481,
+                "roc_auc-std": 0.0027
+            },
+            "test": {
+                "acc-count": 10.0,
+                "acc-mean": 0.8591,
+                "acc-std": 0.0022,
+                "f1-count": 10.0,
+                "f1-mean": 0.7353,
+                "f1-std": 0.0035,
+                "roc_auc-count": 10.0,
+                "roc_auc-mean": 0.8379,
+                "roc_auc-std": 0.0031
+            }
+        },
+        "mlp": {
+            "val": {
+                "acc-count": 10.0,
+                "acc-mean": 0.8622,
+                "acc-std": 0.0024,
+                "f1-count": 10.0,
+                "f1-mean": 0.7364,
+                "f1-std": 0.0055,
+                "roc_auc-count": 10.0,
+                "roc_auc-mean": 0.8503,
+                "roc_auc-std": 0.0023
+            },
+            "test": {
+                "acc-count": 10.0,
+                "acc-mean": 0.8538,
+                "acc-std": 0.0014,
+                "f1-count": 10.0,
+                "f1-mean": 0.717,
+                "f1-std": 0.0041,
+                "roc_auc-count": 10.0,
+                "roc_auc-mean": 0.8483,
+                "roc_auc-std": 0.0016
+            }
+        },
+        "avg": {
+            "val": {
+                "f1-mean": 0.6918,
+                "acc-mean": 0.8343,
+                "f1-std": 0.0032
+            },
+            "test": {
+                "f1-mean": 0.6789,
+                "acc-mean": 0.8283,
+                "f1-std": 0.0031
+            }
+        }
+    },
+    "synthetic": {
+        "tree": {
+            "val": {
+                "acc-count": 10.0,
+                "acc-mean": 0.8037,
+                "acc-std": 0.0046,
+                "f1-count": 10.0,
+                "f1-mean": 0.7026,
+                "f1-std": 0.0061,
+                "roc_auc-count": 10.0,
+                "roc_auc-mean": 0.7061,
+                "roc_auc-std": 0.0058
+            },
+            "test": {
+                "acc-count": 10.0,
+                "acc-mean": 0.7926,
+                "acc-std": 0.0012,
+                "f1-count": 10.0,
+                "f1-mean": 0.6845,
+                "f1-std": 0.0026,
+                "roc_auc-count": 10.0,
+                "roc_auc-mean": 0.6871,
+                "roc_auc-std": 0.0035
+            }
+        },
+        "lr": {
+            "val": {
+                "acc-count": 10.0,
+                "acc-mean": 0.8131,
+                "acc-std": 0.0,
+                "f1-count": 10.0,
+                "f1-mean": 0.6278,
+                "f1-std": 0.0,
+                "roc_auc-count": 10.0,
+                "roc_auc-mean": 0.7441,
+                "roc_auc-std": 0.0
+            },
+            "test": {
+                "acc-count": 10.0,
+                "acc-mean": 0.8035,
+                "acc-std": 0.0,
+                "f1-count": 10.0,
+                "f1-mean": 0.6163,
+                "f1-std": 0.0,
+                "roc_auc-count": 10.0,
+                "roc_auc-mean": 0.7523,
+                "roc_auc-std": 0.0
+            }
+        },
+        "rf": {
+            "val": {
+                "acc-count": 10.0,
+                "acc-mean": 0.8592,
+                "acc-std": 0.0022,
+                "f1-count": 10.0,
+                "f1-mean": 0.7563,
+                "f1-std": 0.0041,
+                "roc_auc-count": 10.0,
+                "roc_auc-mean": 0.85,
+                "roc_auc-std": 0.0017
+            },
+            "test": {
+                "acc-count": 10.0,
+                "acc-mean": 0.8502,
+                "acc-std": 0.002,
+                "f1-count": 10.0,
+                "f1-mean": 0.7373,
+                "f1-std": 0.0036,
+                "roc_auc-count": 10.0,
+                "roc_auc-mean": 0.8385,
+                "roc_auc-std": 0.0022
+            }
+        },
+        "mlp": {
+            "val": {
+                "acc-count": 10.0,
+                "acc-mean": 0.8591,
+                "acc-std": 0.0053,
+                "f1-count": 10.0,
+                "f1-mean": 0.7585,
+                "f1-std": 0.0035,
+                "roc_auc-count": 10.0,
+                "roc_auc-mean": 0.8571,
+                "roc_auc-std": 0.0023
+            },
+            "test": {
+                "acc-count": 10.0,
+                "acc-mean": 0.8483,
+                "acc-std": 0.0036,
+                "f1-count": 10.0,
+                "f1-mean": 0.735,
+                "f1-std": 0.0067,
+                "roc_auc-count": 10.0,
+                "roc_auc-mean": 0.8468,
+                "roc_auc-std": 0.0026
+            }
+        },
+        "avg": {
+            "val": {
+                "f1-mean": 0.7113,
+                "acc-mean": 0.8338,
+                "f1-std": 0.0033
+            },
+            "test": {
+                "f1-mean": 0.6933,
+                "acc-mean": 0.8236,
+                "f1-std": 0.0031
+            }
+        }
+    }
+}

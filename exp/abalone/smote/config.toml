@@ -1,0 +1,24 @@
+parent_dir = "exp/abalone/smote"
+real_data_path = "data/abalone/"
+seed = 0
+
+[smote_params]
+k_neighbours = 5
+frac_samples = 8
+frac_lam_del = 0.65
+
+[sample]
+seed = 0
+
+[eval.type]
+eval_model = "catboost"
+eval_type = "synthetic"
+
+[eval.T]
+seed = 0
+normalization = "__none__"
+num_nan_policy = "__none__"
+cat_nan_policy = "__none__"
+cat_min_frequency = "__none__"
+cat_encoding = "__none__"
+y_policy = "default"

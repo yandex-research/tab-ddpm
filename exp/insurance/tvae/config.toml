@@ -1,0 +1,40 @@
+parent_dir = "exp/insurance/tvae"
+real_data_path = "data/insurance/"
+seed = 0
+device = "cuda:1"
+
+[train_params]
+lr = 0.0006796970164894311
+epochs = 30000
+embedding_dim = 256
+batch_size = 856
+loss_factor = 1.1222172608518253
+compress_dims = [
+    128,
+    64,
+    64,
+    512,
+]
+decompress_dims = [
+    128,
+    64,
+    64,
+    512,
+]
+
+[sample]
+seed = 0
+num_samples = 1800
+
+[eval.type]
+eval_model = "catboost"
+eval_type = "synthetic"
+
+[eval.T]
+seed = 0
+normalization = "__none__"
+num_nan_policy = "__none__"
+cat_nan_policy = "__none__"
+cat_min_frequency = "__none__"
+cat_encoding = "__none__"
+y_policy = "default"

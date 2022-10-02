@@ -1,0 +1,10 @@
+{
+    "task_type": "binclass",
+    "name": "wilt",
+    "id": "wilt--id",
+    "train_size": 3096,
+    "val_size": 775,
+    "test_size": 968,
+    "n_num_features": 5,
+    "n_cat_features": 0
+}

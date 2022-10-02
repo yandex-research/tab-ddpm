@@ -1,0 +1,20 @@
+{
+    "synthetic": {
+        "val": {
+            "r2-count": 50.0,
+            "r2-mean": 0.4357,
+            "r2-std": 0.0149,
+            "rmse-count": 50.0,
+            "rmse-mean": 262097.1873,
+            "rmse-std": 3471.9543
+        },
+        "test": {
+            "r2-count": 50.0,
+            "r2-mean": 0.4438,
+            "r2-std": 0.014,
+            "rmse-count": 50.0,
+            "rmse-mean": 262091.4844,
+            "rmse-std": 3300.2996
+        }
+    }
+}

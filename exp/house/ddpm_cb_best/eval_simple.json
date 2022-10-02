@@ -1,0 +1,174 @@
+{
+    "real": {
+        "tree": {
+            "val": {
+                "r2-count": 10.0,
+                "r2-mean": 0.2716,
+                "r2-std": 0.028,
+                "rmse-count": 10.0,
+                "rmse-mean": 46580.9171,
+                "rmse-std": 892.6794
+            },
+            "test": {
+                "r2-count": 10.0,
+                "r2-mean": 0.2762,
+                "r2-std": 0.0204,
+                "rmse-count": 10.0,
+                "rmse-mean": 45707.4061,
+                "rmse-std": 646.0565
+            }
+        },
+        "lr": {
+            "val": {
+                "r2-count": 10.0,
+                "r2-mean": 0.273,
+                "r2-std": 0.0,
+                "rmse-count": 10.0,
+                "rmse-mean": 46545.8703,
+                "rmse-std": 0.0
+            },
+            "test": {
+                "r2-count": 10.0,
+                "r2-mean": 0.2662,
+                "r2-std": 0.0,
+                "rmse-count": 10.0,
+                "rmse-mean": 46025.2727,
+                "rmse-std": 0.0
+            }
+        },
+        "rf": {
+            "val": {
+                "r2-count": 10.0,
+                "r2-mean": 0.6465,
+                "r2-std": 0.0026,
+                "rmse-count": 10.0,
+                "rmse-mean": 32457.8825,
+                "rmse-std": 117.3249
+            },
+            "test": {
+                "r2-count": 10.0,
+                "r2-mean": 0.6102,
+                "r2-std": 0.0031,
+                "rmse-count": 10.0,
+                "rmse-mean": 33546.0579,
+                "rmse-std": 135.1099
+            }
+        },
+        "mlp": {
+            "val": {
+                "r2-count": 10.0,
+                "r2-mean": 0.5332,
+                "r2-std": 0.0061,
+                "rmse-count": 10.0,
+                "rmse-mean": 37294.164,
+                "rmse-std": 241.9236
+            },
+            "test": {
+                "r2-count": 10.0,
+                "r2-mean": 0.5068,
+                "r2-std": 0.0052,
+                "rmse-count": 10.0,
+                "rmse-mean": 37732.1206,
+                "rmse-std": 199.919
+            }
+        },
+        "avg": {
+            "val": {
+                "r2-mean": 0.4311,
+                "rmse-mean": 40719.7085,
+                "r2-std": 0.0092
+            },
+            "test": {
+                "r2-mean": 0.4149,
+                "rmse-mean": 40752.7143,
+                "r2-std": 0.0074
+            }
+        }
+    },
+    "synthetic": {
+        "tree": {
+            "val": {
+                "r2-count": 10.0,
+                "r2-mean": 0.4012,
+                "r2-std": 0.0149,
+                "rmse-count": 10.0,
+                "rmse-mean": 42240.2751,
+                "rmse-std": 522.6303
+            },
+            "test": {
+                "r2-count": 10.0,
+                "r2-mean": 0.2766,
+                "r2-std": 0.0133,
+                "rmse-count": 10.0,
+                "rmse-mean": 45697.7718,
+                "rmse-std": 417.312
+            }
+        },
+        "lr": {
+            "val": {
+                "r2-count": 10.0,
+                "r2-mean": 0.273,
+                "r2-std": 0.0,
+                "rmse-count": 10.0,
+                "rmse-mean": 46544.9062,
+                "rmse-std": 0.0
+            },
+            "test": {
+                "r2-count": 10.0,
+                "r2-mean": 0.2637,
+                "r2-std": 0.0,
+                "rmse-count": 10.0,
+                "rmse-mean": 46103.3942,
+                "rmse-std": 0.0
+            }
+        },
+        "rf": {
+            "val": {
+                "r2-count": 10.0,
+                "r2-mean": 0.6684,
+                "r2-std": 0.0046,
+                "rmse-count": 10.0,
+                "rmse-mean": 31433.5222,
+                "rmse-std": 219.0288
+            },
+            "test": {
+                "r2-count": 10.0,
+                "r2-mean": 0.5975,
+                "r2-std": 0.0031,
+                "rmse-count": 10.0,
+                "rmse-mean": 34085.7347,
+                "rmse-std": 133.1025
+            }
+        },
+        "mlp": {
+            "val": {
+                "r2-count": 10.0,
+                "r2-mean": 0.616,
+                "r2-std": 0.0042,
+                "rmse-count": 10.0,
+                "rmse-mean": 33825.3518,
+                "rmse-std": 185.7328
+            },
+            "test": {
+                "r2-count": 10.0,
+                "r2-mean": 0.5675,
+                "r2-std": 0.0048,
+                "rmse-count": 10.0,
+                "rmse-mean": 35336.1077,
+                "rmse-std": 194.1137
+            }
+        },
+        "avg": {
+            "val": {
+                "r2-mean": 0.4896,
+                "rmse-mean": 38511.0138,
+                "r2-std": 0.0076
+            },
+            "test": {
+                "r2-mean": 0.4263,
+                "rmse-mean": 40305.7521,
+                "r2-std": 0.0069
+            }
+        }
+    }
+}

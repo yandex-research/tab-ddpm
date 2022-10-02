@@ -1,0 +1,36 @@
+parent_dir = "exp/king/tvae"
+real_data_path = "data/king/"
+seed = 0
+device = "cuda:0"
+
+[train_params]
+lr = 0.002395008582967363
+epochs = 30000
+embedding_dim = 128
+batch_size = 4096
+loss_factor = 1.1076946053481818
+compress_dims = [
+    128,
+    256,
+]
+decompress_dims = [
+    128,
+    256,
+]
+
+[sample]
+seed = 0
+num_samples = 55200
+
+[eval.type]
+eval_model = "catboost"
+eval_type = "synthetic"
+
+[eval.T]
+seed = 0
+normalization = "__none__"
+num_nan_policy = "__none__"
+cat_nan_policy = "__none__"
+cat_min_frequency = "__none__"
+cat_encoding = "__none__"
+y_policy = "default"

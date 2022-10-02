@@ -1,0 +1,33 @@
+parent_dir = "exp/fb-comments/ctabgan-plus"
+real_data_path = "data/fb-comments/"
+seed = 0
+device = "cuda:1"
+
+[train_params]
+lr = 0.0002484017612698457
+epochs = 10000
+class_dim = [
+    128,
+    64,
+    64,
+]
+batch_size = 2048
+random_dim = 128
+num_channels = 64
+
+[sample]
+seed = 0
+num_samples = 158000
+
+[eval.type]
+eval_model = "catboost"
+eval_type = "synthetic"
+
+[eval.T]
+seed = 0
+normalization = "__none__"
+num_nan_policy = "__none__"
+cat_nan_policy = "__none__"
+cat_min_frequency = "__none__"
+cat_encoding = "__none__"
+y_policy = "default"

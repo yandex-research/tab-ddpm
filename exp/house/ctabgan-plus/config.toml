@@ -1,0 +1,33 @@
+parent_dir = "exp/house/ctabgan-plus"
+real_data_path = "data/house/"
+seed = 0
+device = "cuda:1"
+
+[train_params]
+lr = 0.0002104949164041533
+epochs = 10000
+class_dim = [
+    256,
+    64,
+    256,
+]
+batch_size = 1024
+random_dim = 16
+num_channels = 64
+
+[sample]
+seed = 0
+num_samples = 58000
+
+[eval.type]
+eval_model = "catboost"
+eval_type = "synthetic"
+
+[eval.T]
+seed = 0
+normalization = "__none__"
+num_nan_policy = "__none__"
+cat_nan_policy = "__none__"
+cat_min_frequency = "__none__"
+cat_encoding = "__none__"
+y_policy = "default"

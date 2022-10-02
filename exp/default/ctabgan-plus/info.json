@@ -1,0 +1,10 @@
+{
+    "task_type": "binclass",
+    "name": "default",
+    "id": "default--id",
+    "train_size": 19200,
+    "val_size": 4800,
+    "test_size": 6000,
+    "n_num_features": 20,
+    "n_cat_features": 3
+}

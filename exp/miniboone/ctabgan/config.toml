@@ -1,0 +1,34 @@
+parent_dir = "exp/miniboone/ctabgan"
+real_data_path = "data/miniboone/"
+seed = 0
+device = "cuda:0"
+
+[train_params]
+lr = 0.0010731076736125774
+epochs = 10000
+class_dim = [
+    512,
+    512,
+    512,
+    256,
+]
+batch_size = 2048
+random_dim = 128
+num_channels = 64
+
+[sample]
+seed = 0
+num_samples = 166000
+
+[eval.type]
+eval_model = "catboost"
+eval_type = "synthetic"
+
+[eval.T]
+seed = 0
+normalization = "__none__"
+num_nan_policy = "__none__"
+cat_nan_policy = "__none__"
+cat_min_frequency = "__none__"
+cat_encoding = "__none__"
+y_policy = "default"

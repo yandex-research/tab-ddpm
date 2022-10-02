@@ -1,0 +1,9 @@
+[submodule "ctgan"]
+	# path = CTGAN/CTGAN
+	url = https://github.com/sdv-dev/CTGAN
+[submodule "ctabgan"]
+	# path = CTAB-GAN
+	url = https://github.com/Team-TUD/CTAB-GAN
+[submodule "ctabgan+"]
+	# path = CTAB-GAN-Plus
+	url = https://github.com/Team-TUD/CTAB-GAN-Plus

@@ -1,0 +1,38 @@
+{
+    "synthetic": {
+        "val": {
+            "r2-count": 50.0,
+            "r2-mean": 0.8752,
+            "r2-std": 0.0059,
+            "rmse-count": 50.0,
+            "rmse-mean": 123238.9606,
+            "rmse-std": 2878.8241
+        },
+        "test": {
+            "r2-count": 50.0,
+            "r2-mean": 0.8331,
+            "r2-std": 0.0143,
+            "rmse-count": 50.0,
+            "rmse-mean": 143472.3284,
+            "rmse-std": 6143.4332
+        }
+    },
+    "real": {
+        "val": {
+            "r2-count": 10.0,
+            "r2-mean": 0.9199,
+            "r2-std": 0.0011,
+            "rmse-count": 10.0,
+            "rmse-mean": 98777.0089,
+            "rmse-std": 696.7992
+        },
+        "test": {
+            "r2-count": 10.0,
+            "r2-mean": 0.907,
+            "r2-std": 0.0022,
+            "rmse-count": 10.0,
+            "rmse-mean": 107162.1466,
+            "rmse-std": 1243.2756
+        }
+    }
+}

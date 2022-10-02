@@ -1,0 +1,26 @@
+{
+    "real": {
+        "val": {
+            "acc-count": 10.0,
+            "acc-mean": 0.7837,
+            "acc-std": 0.0054,
+            "f1-count": 10.0,
+            "f1-mean": 0.7451,
+            "f1-std": 0.0085,
+            "roc_auc-count": 10.0,
+            "roc_auc-mean": 0.8182,
+            "roc_auc-std": 0.0048
+        },
+        "test": {
+            "acc-count": 10.0,
+            "acc-mean": 0.8071,
+            "acc-std": 0.0116,
+            "f1-count": 10.0,
+            "f1-mean": 0.7759,
+            "f1-std": 0.0137,
+            "roc_auc-count": 10.0,
+            "roc_auc-mean": 0.873,
+            "roc_auc-std": 0.0056
+        }
+    }
+}

@@ -1,0 +1,55 @@
+seed = 1
+parent_dir = "exp/churn2/check"
+real_data_path = "data/churn2/"
+model_type = "mlp"
+num_numerical_features = 7
+device = "cuda:1"
+
+[model_params]
+num_classes = 2
+is_y_cond = true
+
+[model_params.rtdl_params]
+d_layers = [
+    256,
+    256,
+]
+dropout = 0.0
+
+[diffusion_params]
+num_timesteps = 1000
+gaussian_loss_type = "mse"
+scheduler = "cosine"
+
+[train.main]
+steps = 1000
+lr = 0.001
+weight_decay = 1e-05
+batch_size = 4096
+
+[train.T]
+seed = 0
+normalization = "quantile"
+num_nan_policy = "__none__"
+cat_nan_policy = "__none__"
+cat_min_frequency = "__none__"
+cat_encoding = "__none__"
+y_policy = "default"
+
+[sample]
+num_samples = 26000
+batch_size = 10000
+seed = 0
+
+[eval.type]
+eval_model = "simple"
+eval_type = "real"
+
+[eval.T]
+seed = 0
+normalization = "__none__"
+num_nan_policy = "__none__"
+cat_nan_policy = "__none__"
+cat_min_frequency = "__none__"
+cat_encoding = "__none__"
+y_policy = "default"

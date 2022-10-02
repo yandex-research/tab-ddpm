@@ -1,0 +1,36 @@
+parent_dir = "exp/house/tvae"
+real_data_path = "data/house/"
+seed = 0
+device = "cuda:1"
+
+[train_params]
+lr = 0.0014569517316450873
+epochs = 30000
+embedding_dim = 64
+batch_size = 4096
+loss_factor = 0.9025964643509657
+compress_dims = [
+    256,
+    512,
+]
+decompress_dims = [
+    256,
+    512,
+]
+
+[sample]
+seed = 0
+num_samples = 29000
+
+[eval.type]
+eval_model = "catboost"
+eval_type = "synthetic"
+
+[eval.T]
+seed = 0
+normalization = "__none__"
+num_nan_policy = "__none__"
+cat_nan_policy = "__none__"
+cat_min_frequency = "__none__"
+cat_encoding = "__none__"
+y_policy = "default"

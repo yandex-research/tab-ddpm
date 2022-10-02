@@ -1,0 +1,10 @@
+{
+    "name": "Higgs Small",
+    "id": "higgs-small--default",
+    "task_type": "binclass",
+    "n_num_features": 28,
+    "n_cat_features": 0,
+    "train_size": 62751,
+    "val_size": 15688,
+    "test_size": 19610
+}

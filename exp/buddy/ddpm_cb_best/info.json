@@ -1,0 +1,11 @@
+{
+    "task_type": "multiclass",
+    "name": "buddy",
+    "id": "buddy--id",
+    "n_classes": 3,
+    "train_size": 12053,
+    "val_size": 3014,
+    "test_size": 3767,
+    "n_num_features": 4,
+    "n_cat_features": 5
+}

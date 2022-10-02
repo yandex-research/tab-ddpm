@@ -1,0 +1,20 @@
+{
+    "synthetic": {
+        "val": {
+            "acc-count": 50.0,
+            "acc-mean": 0.8849,
+            "acc-std": 0.0027,
+            "f1-count": 50.0,
+            "f1-mean": 0.8779,
+            "f1-std": 0.0053
+        },
+        "test": {
+            "acc-count": 50.0,
+            "acc-mean": 0.8714,
+            "acc-std": 0.0039,
+            "f1-count": 50.0,
+            "f1-mean": 0.8638,
+            "f1-std": 0.0055
+        }
+    }
+}

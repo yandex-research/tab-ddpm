@@ -1,0 +1,31 @@
+parent_dir = "exp/churn2/ctabgan-plus"
+real_data_path = "data/churn2/"
+seed = 0
+device = "cuda:1"
+
+[train_params]
+lr = 0.00045004551479319233
+epochs = 10000
+class_dim = [
+    256,
+]
+batch_size = 512
+random_dim = 128
+num_channels = 16
+
+[sample]
+seed = 0
+num_samples = 26000
+
+[eval.type]
+eval_model = "catboost"
+eval_type = "synthetic"
+
+[eval.T]
+seed = 0
+normalization = "__none__"
+num_nan_policy = "__none__"
+cat_nan_policy = "__none__"
+cat_min_frequency = "__none__"
+cat_encoding = "__none__"
+y_policy = "default"

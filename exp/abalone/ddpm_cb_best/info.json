@@ -1,0 +1,10 @@
+{
+    "task_type": "regression",
+    "name": "Abalone",
+    "id": "abalone--id",
+    "train_size": 2672,
+    "val_size": 669,
+    "test_size": 836,
+    "n_num_features": 7,
+    "n_cat_features": 1
+}

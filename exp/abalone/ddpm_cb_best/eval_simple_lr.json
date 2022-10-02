@@ -1,0 +1,20 @@
+{
+    "real": {
+        "val": {
+            "r2-count": 10.0,
+            "r2-mean": 0.4722,
+            "r2-std": 0.0,
+            "rmse-count": 10.0,
+            "rmse-mean": 2.2696,
+            "rmse-std": 0.0
+        },
+        "test": {
+            "r2-count": 10.0,
+            "r2-mean": 0.4952,
+            "r2-std": 0.0,
+            "rmse-count": 10.0,
+            "rmse-mean": 2.1431,
+            "rmse-std": 0.0
+        }
+    }
+}

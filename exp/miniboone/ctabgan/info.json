@@ -1,0 +1,10 @@
+{
+    "task_type": "binclass",
+    "name": "MiniBooNE",
+    "id": "miniboone--id",
+    "train_size": 83240,
+    "val_size": 20811,
+    "test_size": 26013,
+    "n_num_features": 50,
+    "n_cat_features": 0
+}

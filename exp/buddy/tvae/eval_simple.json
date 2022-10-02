@@ -1,0 +1,88 @@
+{
+    "synthetic": {
+        "tree": {
+            "val": {
+                "acc-count": 10.0,
+                "acc-mean": 0.8688,
+                "acc-std": 0.0017,
+                "f1-count": 10.0,
+                "f1-mean": 0.8604,
+                "f1-std": 0.0043
+            },
+            "test": {
+                "acc-count": 10.0,
+                "acc-mean": 0.8621,
+                "acc-std": 0.0012,
+                "f1-count": 10.0,
+                "f1-mean": 0.8513,
+                "f1-std": 0.0021
+            }
+        },
+        "lr": {
+            "val": {
+                "acc-count": 10.0,
+                "acc-mean": 0.7246,
+                "acc-std": 0.0,
+                "f1-count": 10.0,
+                "f1-mean": 0.6182,
+                "f1-std": 0.0
+            },
+            "test": {
+                "acc-count": 10.0,
+                "acc-mean": 0.7053,
+                "acc-std": 0.0,
+                "f1-count": 10.0,
+                "f1-mean": 0.5721,
+                "f1-std": 0.0
+            }
+        },
+        "rf": {
+            "val": {
+                "acc-count": 10.0,
+                "acc-mean": 0.8748,
+                "acc-std": 0.0021,
+                "f1-count": 10.0,
+                "f1-mean": 0.8728,
+                "f1-std": 0.0032
+            },
+            "test": {
+                "acc-count": 10.0,
+                "acc-mean": 0.868,
+                "acc-std": 0.0021,
+                "f1-count": 10.0,
+                "f1-mean": 0.8666,
+                "f1-std": 0.0028
+            }
+        },
+        "mlp": {
+            "val": {
+                "acc-count": 10.0,
+                "acc-mean": 0.8601,
+                "acc-std": 0.004,
+                "f1-count": 10.0,
+                "f1-mean": 0.8264,
+                "f1-std": 0.0086
+            },
+            "test": {
+                "acc-count": 10.0,
+                "acc-mean": 0.851,
+                "acc-std": 0.0055,
+                "f1-count": 10.0,
+                "f1-mean": 0.8263,
+                "f1-std": 0.0093
+            }
+        },
+        "avg": {
+            "val": {
+                "f1-mean": 0.7944,
+                "acc-mean": 0.8321,
+                "f1-std": 0.004
+            },
+            "test": {
+                "f1-mean": 0.7791,
+                "acc-mean": 0.8216,
+                "f1-std": 0.0038
+            }
+        }
+    }
+}

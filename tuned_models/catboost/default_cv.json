@@ -1,0 +1,17 @@
+{
+    "learning_rate": 0.2902756591396544,
+    "depth": 4,
+    "l2_leaf_reg": 4.408066401330523,
+    "bagging_temperature": 0.8052091766313958,
+    "leaf_estimation_iterations": 1,
+    "iterations": 2000,
+    "early_stopping_rounds": 50,
+    "od_pval": 0.001,
+    "task_type": "CPU",
+    "thread_count": 4,
+    "cat_features": [
+        20,
+        21,
+        22
+    ]
+}

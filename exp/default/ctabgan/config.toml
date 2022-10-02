@@ -1,0 +1,32 @@
+parent_dir = "exp/default/ctabgan"
+real_data_path = "data/default/"
+seed = 0
+device = "cuda:1"
+
+[train_params]
+lr = 0.00011098666649406564
+epochs = 5000
+class_dim = [
+    64,
+    256,
+]
+batch_size = 1024
+random_dim = 128
+num_channels = 64
+
+[sample]
+seed = 0
+num_samples = 153600
+
+[eval.type]
+eval_model = "catboost"
+eval_type = "synthetic"
+
+[eval.T]
+seed = 0
+normalization = "minmax"
+num_nan_policy = "__none__"
+cat_nan_policy = "__none__"
+cat_min_frequency = "__none__"
+cat_encoding = "__none__"
+y_policy = "default"

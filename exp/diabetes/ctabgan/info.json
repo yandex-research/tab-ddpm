@@ -1,0 +1,10 @@
+{
+    "task_type": "binclass",
+    "name": "diabetes",
+    "id": "diabetes--id",
+    "train_size": 491,
+    "val_size": 123,
+    "test_size": 154,
+    "n_num_features": 8,
+    "n_cat_features": 0
+}

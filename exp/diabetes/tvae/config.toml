@@ -1,0 +1,40 @@
+parent_dir = "exp/diabetes/tvae"
+real_data_path = "data/diabetes/"
+seed = 0
+device = "cuda:1"
+
+[train_params]
+lr = 5.723631879975606e-05
+epochs = 20000
+embedding_dim = 512
+batch_size = 256
+loss_factor = 6.323198409475003
+compress_dims = [
+    64,
+    512,
+    512,
+    512,
+]
+decompress_dims = [
+    64,
+    512,
+    512,
+    512,
+]
+
+[sample]
+seed = 0
+num_samples = 1000
+
+[eval.type]
+eval_model = "catboost"
+eval_type = "synthetic"
+
+[eval.T]
+seed = 0
+normalization = "__none__"
+num_nan_policy = "__none__"
+cat_nan_policy = "__none__"
+cat_min_frequency = "__none__"
+cat_encoding = "__none__"
+y_policy = "default"

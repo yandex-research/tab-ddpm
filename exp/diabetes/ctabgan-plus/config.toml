@@ -1,0 +1,33 @@
+parent_dir = "exp/diabetes/ctabgan-plus"
+real_data_path = "data/diabetes/"
+seed = 0
+device = "cuda:0"
+
+[train_params]
+lr = 2.5546195429833966e-05
+epochs = 10000
+class_dim = [
+    64,
+    128,
+    256,
+]
+batch_size = 491
+random_dim = 128
+num_channels = 16
+
+[sample]
+seed = 0
+num_samples = 2000
+
+[eval.type]
+eval_model = "catboost"
+eval_type = "synthetic"
+
+[eval.T]
+seed = 0
+normalization = "__none__"
+num_nan_policy = "__none__"
+cat_nan_policy = "__none__"
+cat_min_frequency = "__none__"
+cat_encoding = "__none__"
+y_policy = "default"

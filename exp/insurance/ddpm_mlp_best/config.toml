@@ -1,0 +1,58 @@
+seed = 0
+parent_dir = "exp/insurance/ddpm_mlp_best"
+real_data_path = "data/insurance/"
+num_numerical_features = 3
+model_type = "mlp"
+device = "cuda:0"
+
+[model_params]
+d_in = 12
+num_classes = 0
+is_y_cond = false
+
+[model_params.rtdl_params]
+d_layers = [
+    512,
+    256,
+    256,
+    512,
+]
+dropout = 0.0
+
+[diffusion_params]
+num_timesteps = 100
+gaussian_loss_type = "mse"
+scheduler = "cosine"
+
+[train.main]
+steps = 30000
+lr = 0.002680166862238138
+weight_decay = 0.0
+batch_size = 4096
+
+[train.T]
+seed = 0
+normalization = "quantile"
+num_nan_policy = "__none__"
+cat_nan_policy = "__none__"
+cat_min_frequency = "__none__"
+cat_encoding = "__none__"
+y_policy = "default"
+
+[sample]
+num_samples = 3600
+batch_size = 10000
+seed = 0
+
+[eval.type]
+eval_model = "mlp"
+eval_type = "synthetic"
+
+[eval.T]
+seed = 0
+normalization = "quantile"
+num_nan_policy = "__none__"
+cat_nan_policy = "__none__"
+cat_min_frequency = "__none__"
+cat_encoding = "one-hot"
+y_policy = "default"

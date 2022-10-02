@@ -1,0 +1,10 @@
+{
+    "name": "Facebook Comments Volume",
+    "id": "fb-comments--default",
+    "task_type": "regression",
+    "n_num_features": 36,
+    "n_cat_features": 15,
+    "train_size": 157638,
+    "test_size": 19720,
+    "val_size": 19722
+}

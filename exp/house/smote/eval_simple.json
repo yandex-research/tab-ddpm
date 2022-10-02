@@ -1,0 +1,88 @@
+{
+    "synthetic": {
+        "tree": {
+            "val": {
+                "r2-count": 10.0,
+                "r2-mean": 0.3157,
+                "r2-std": 0.0143,
+                "rmse-count": 10.0,
+                "rmse-mean": 45155.366,
+                "rmse-std": 471.3779
+            },
+            "test": {
+                "r2-count": 10.0,
+                "r2-mean": 0.2366,
+                "r2-std": 0.009,
+                "rmse-count": 10.0,
+                "rmse-mean": 46944.6743,
+                "rmse-std": 276.2307
+            }
+        },
+        "lr": {
+            "val": {
+                "r2-count": 10.0,
+                "r2-mean": 0.2744,
+                "r2-std": 0.0,
+                "rmse-count": 10.0,
+                "rmse-mean": 46499.5828,
+                "rmse-std": 0.0
+            },
+            "test": {
+                "r2-count": 10.0,
+                "r2-mean": 0.256,
+                "r2-std": 0.0,
+                "rmse-count": 10.0,
+                "rmse-mean": 46346.477,
+                "rmse-std": 0.0
+            }
+        },
+        "rf": {
+            "val": {
+                "r2-count": 10.0,
+                "r2-mean": 0.6354,
+                "r2-std": 0.0034,
+                "rmse-count": 10.0,
+                "rmse-mean": 32963.5787,
+                "rmse-std": 152.908
+            },
+            "test": {
+                "r2-count": 10.0,
+                "r2-mean": 0.597,
+                "r2-std": 0.0027,
+                "rmse-count": 10.0,
+                "rmse-mean": 34108.0118,
+                "rmse-std": 113.7006
+            }
+        },
+        "mlp": {
+            "val": {
+                "r2-count": 10.0,
+                "r2-mean": 0.5686,
+                "r2-std": 0.0107,
+                "rmse-count": 10.0,
+                "rmse-mean": 35853.9006,
+                "rmse-std": 445.5435
+            },
+            "test": {
+                "r2-count": 10.0,
+                "r2-mean": 0.4876,
+                "r2-std": 0.0118,
+                "rmse-count": 10.0,
+                "rmse-mean": 38460.2795,
+                "rmse-std": 444.4825
+            }
+        },
+        "avg": {
+            "val": {
+                "r2-mean": 0.4485,
+                "rmse-mean": 40118.107,
+                "r2-std": 0.0071
+            },
+            "test": {
+                "r2-mean": 0.3943,
+                "rmse-mean": 41464.8606,
+                "r2-std": 0.0065
+            }
+        }
+    }
+}

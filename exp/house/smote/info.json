@@ -1,0 +1,10 @@
+{
+    "name": "House 16H",
+    "id": "house--default",
+    "task_type": "regression",
+    "n_num_features": 16,
+    "n_cat_features": 0,
+    "train_size": 14581,
+    "val_size": 3646,
+    "test_size": 4557
+}

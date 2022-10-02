@@ -1,0 +1,44 @@
+parent_dir = "exp/cardio/tvae"
+real_data_path = "data/cardio/"
+seed = 0
+device = "cuda:0"
+
+[train_params]
+lr = 0.0012012873947818063
+epochs = 30000
+embedding_dim = 64
+batch_size = 256
+loss_factor = 8.748421768542762
+compress_dims = [
+    256,
+    256,
+    256,
+    256,
+    256,
+    512,
+]
+decompress_dims = [
+    256,
+    256,
+    256,
+    256,
+    256,
+    512,
+]
+
+[sample]
+seed = 0
+num_samples = 45000
+
+[eval.type]
+eval_model = "catboost"
+eval_type = "synthetic"
+
+[eval.T]
+seed = 0
+normalization = "__none__"
+num_nan_policy = "__none__"
+cat_nan_policy = "__none__"
+cat_min_frequency = "__none__"
+cat_encoding = "__none__"
+y_policy = "default"

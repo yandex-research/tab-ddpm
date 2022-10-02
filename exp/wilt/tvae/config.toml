@@ -1,0 +1,40 @@
+parent_dir = "exp/wilt/tvae"
+real_data_path = "data/wilt/"
+seed = 0
+device = "cuda:0"
+
+[train_params]
+lr = 0.0013361191527546943
+epochs = 5000
+embedding_dim = 64
+batch_size = 256
+loss_factor = 6.543559371803048
+compress_dims = [
+    128,
+    512,
+    512,
+    256,
+]
+decompress_dims = [
+    128,
+    512,
+    512,
+    256,
+]
+
+[sample]
+seed = 0
+num_samples = 12400
+
+[eval.type]
+eval_model = "catboost"
+eval_type = "synthetic"
+
+[eval.T]
+seed = 0
+normalization = "__none__"
+num_nan_policy = "__none__"
+cat_nan_policy = "__none__"
+cat_min_frequency = "__none__"
+cat_encoding = "__none__"
+y_policy = "default"

@@ -1,0 +1,36 @@
+parent_dir = "exp/abalone/tvae"
+real_data_path = "data/abalone/"
+seed = 0
+device = "cuda:0"
+
+[train_params]
+lr = 0.0006509130949439269
+epochs = 30000
+embedding_dim = 128
+batch_size = 2672
+loss_factor = 0.8306279147963365
+compress_dims = [
+    256,
+    256,
+]
+decompress_dims = [
+    256,
+    256,
+]
+
+[sample]
+seed = 0
+num_samples = 21600
+
+[eval.type]
+eval_model = "catboost"
+eval_type = "synthetic"
+
+[eval.T]
+seed = 0
+normalization = "__none__"
+num_nan_policy = "__none__"
+cat_nan_policy = "__none__"
+cat_min_frequency = "__none__"
+cat_encoding = "__none__"
+y_policy = "default"
