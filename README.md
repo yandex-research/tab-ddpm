@@ -1,5 +1,5 @@
 # TabDDPM: Modelling Tabular Data with Diffusion Models
-This is the official code for our paper "TabDDPM: Modelling Tabular Data with Diffusion Models" ([paper](TBA))
+This is the official code for our paper "TabDDPM: Modelling Tabular Data with Diffusion Models" ([paper](https://arxiv.org/abs/2209.15421))
 
 <!-- ## Results
 You can view all the results and build your own tables with this [notebook](notebooks/Reports.ipynb). -->
@@ -66,9 +66,9 @@ To understand the structure of `config.toml` file, read `CONFIG_DESCRIPTION.md`.
 
 Baselines:
 - `smote/`
-- `CTGAN/` -- TVAE
-- `CTAB-GAN/`
-- `CTAB-GAN-Plus/`
+- `CTGAN/` -- TVAE [official repo](https://github.com/sdv-dev/CTGAN)
+- `CTAB-GAN/` --  [official repo](https://github.com/Team-TUD/CTAB-GAN)
+- `CTAB-GAN-Plus/` -- [official repo](https://github.com/Team-TUD/CTAB-GAN-Plus)
 
 ### Examples
 
