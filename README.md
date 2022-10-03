@@ -80,18 +80,20 @@ python scripts/tune_ddpm.py [ds_name] [train_size] synthetic [catboost|mlp] [exp
 python scripts/tune_ddpm.py churn2 6500 synthetic catboost ddpm_tune --eval_seeds
 ```
 
-<ins>Run TabDDPM pipleine.</ins>   
+<ins>Run TabDDPM pipeline.</ins>   
 
 Template and example  (`--train`, `--sample`, `--eval` are optional): 
 ```bash
-python scripts/pipleine.py --config [path_to_your_config] --train --sample --eval
-python scripts/pipleine.py --config exp/churn2/first_exp/config.toml --train --sample
+python scripts/pipeline.py --config [path_to_your_config] --train --sample --eval
+python scripts/pipeline.py --config exp/churn2/ddpm_cb_best/config.toml --train --sample
 ```
+It takes approximately 7min to run the script above (NVIDIA GeForce RTX 2080 Ti).  
 
 <ins>Run evaluation over seeds</ins>   
+Before running evaluation, you have to train the model with the given hyperparameters (the exmaple above).  
 
 Template and example: 
 ```bash
-python scripts/eval_seeds.py --config [path_to_your_config] [n_eval_seeds] ddpm synthetic [catboost|mlp] [n_sample_seeds]
-python scripts/pipleine.py --config exp/churn2/first_exp/config.toml 10 ddpm synthetic catboost 5
+python scripts/eval_seeds.py --config [path_to_your_config] [n_eval_seeds] [ddpm|smote|ctabgan|ctabgan-plus|tvae] synthetic [catboost|mlp] [n_sample_seeds]
+python scripts/eval_seeds.py --config exp/churn2/ddpm_cb_best/config.toml 10 ddpm synthetic catboost 5
 ```
