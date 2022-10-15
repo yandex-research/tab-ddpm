@@ -90,7 +90,7 @@ python scripts/pipeline.py --config exp/churn2/ddpm_cb_best/config.toml --train 
 It takes approximately 7min to run the script above (NVIDIA GeForce RTX 2080 Ti).  
 
 <ins>Run evaluation over seeds</ins>   
-Before running evaluation, you have to train the model with the given hyperparameters (the exmaple above).  
+Before running evaluation, you have to train the model with the given hyperparameters (the example above).  
 
 Template and example: 
 ```bash
