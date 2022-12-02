@@ -105,7 +105,7 @@ def objective(trial):
     if args.tune_type == "cv":
         score = 0.0
         for fold in range(5):
-            val_m1, val_m2, test_m1, test_m2 = train_func(
+            metrics_report = train_func(
                 parent_dir=None,
                 real_data_path=data_path / f"kfolds/{fold}",
                 eval_type="real",
@@ -114,11 +114,11 @@ def objective(trial):
                 change_val=False,
                 device=args.device
             )
-            score += val_m1
+            score += metrics_report.get_val_score()
         score /= 5
 
     elif args.tune_type == "val":
-        val_m1, val_m2, test_m1, test_m2 = train_func(
+        metrics_report = train_func(
             parent_dir=None,
             real_data_path=data_path,
             eval_type="real",
@@ -127,7 +127,7 @@ def objective(trial):
             change_val=False,
             device=args.device
         )
-        score = val_m2
+        score = metrics_report.get_val_score()
     
     return score
 
