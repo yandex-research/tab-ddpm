@@ -155,5 +155,5 @@ def sample(
         print("Num shape: ", X_num.shape)
         np.save(os.path.join(parent_dir, 'X_num_train'), X_num)
     if num_numerical_features < X_gen.shape[1]:
-        np.save(os.path.join(parent_dir, 'X_cat_train'), X_cat)
+        np.save(os.path.join(parent_dir, 'X_cat_train.npy'), X_cat.astype(str))
     np.save(os.path.join(parent_dir, 'y_train'), y_gen)
