@@ -14,7 +14,7 @@ pipeline = {
     'ddpm': 'scripts/pipeline.py',
     'smote': 'smote/pipeline_smote.py',
     'ctabgan': 'CTAB-GAN/pipeline_ctabgan.py',
-    'ctabgan-plus': 'CTAB-GAN-Plus/pipeline_ctabgan.py',
+    'ctabgan-plus': 'CTAB-GAN-Plus/pipeline_ctabganp.py',
     'tvae': 'CTGAN/pipeline_tvae.py'
 }
 
