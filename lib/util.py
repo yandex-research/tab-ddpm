@@ -46,7 +46,22 @@ class TaskType(enum.Enum):
         return self.value
 
 
-class Timer(zero.Timer):
+import time
+
+class Timer:
+    def __init__(self):
+        self.start_time = None
+        self.running = False
+
+    def run(self):
+        self.start_time = time.time()
+        self.running = True
+
+    def elapsed(self):
+        if self.running and self.start_time is not None:
+            return time.time() - self.start_time
+        return 0.0
+
     @classmethod
     def launch(cls) -> 'Timer':
         timer = cls()
